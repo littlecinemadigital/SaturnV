@@ -18,5 +18,5 @@ Code Styles, Operations, and Other Important Shit. This document contains everyt
 * We use ES6 syntax whenever possible. Some legacy code bases may use ES5, at some point these will be updated.
 
 
-## [Javascript Styleguide](https://github.com/tothemun/SATURN-V/blob/master/JAVASCRIPT.md)
-## [CSS Styleguide](https://github.com/tothemun/SATURN-V/blob/master/CSS.md)
+### [Javascript Styleguide](https://github.com/tothemun/SATURN-V/blob/master/JAVASCRIPT.md)
+### [CSS Styleguide](https://github.com/tothemun/SATURN-V/blob/master/CSS.md)
