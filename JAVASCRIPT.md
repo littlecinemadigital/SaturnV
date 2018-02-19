@@ -1,3 +1,6 @@
+# Javascript Styleguide.
+This guide is a modified version of Airbnb's [Javascript Styleguide](https://github.com/airbnb/javascript).
+
 ## Table of Contents
 
   1. [Types](#types)
