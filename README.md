@@ -18,6 +18,8 @@ Code Styles, Operations, and Other Important Shit. This document contains everyt
 ## Table of Contents
 
   1. [Types](#types)
+  1. [Refrences](#refrences)
+  1. [Objects](#objects)
   
 ## Types
   <a name="types--primitives"></a><a name="1.1"></a>
