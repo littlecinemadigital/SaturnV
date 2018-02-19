@@ -1,5 +1,5 @@
 # Javascript Styleguide.
-This guide is a modified version of Airbnb's [Javascript Styleguide](https://github.com/airbnb/javascript).
+This guide is a modified version of Airbnb's [Javascript Styleguide](https://github.com/airbnb/javascript). Huge shout out to the folks over there.
 
 ## Table of Contents
 
