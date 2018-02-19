@@ -1,5 +1,5 @@
 # SATURN-V
-Code Styles, Operations, and Other Important Shit. This document contains everything you need to know about code styles, and methodolofy.
+Code Styles, Operations, and Other Important Shit. This document contains everything you need to know about code styles, and methodology.
 
 ## Our Repos
 * Be responsible, don't commit:
