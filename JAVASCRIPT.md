@@ -28,7 +28,7 @@ This guide is a modified version of Airbnb's [Javascript Styleguide](https://git
   1. [Naming Conventions](#naming-conventions)
   1. [Accessors](#accessors)
   1. [Events](#events)
-  1. [jQuery](#jquery)
+  1. [DOM](#dom)
   1. [ECMAScript 5 Compatibility](#ecmascript-5-compatibility)
   1. [ECMAScript 6+ (ES 2015+) Styles](#ecmascript-6-es-2015-styles)
   1. [Standard Library](#standard-library)
@@ -3217,10 +3217,10 @@ This guide is a modified version of Airbnb's [Javascript Styleguide](https://git
 
   **[⬆ back to top](#table-of-contents)**
 
-## jQuery
+## DOM
 
   <a name="jquery--dollar-prefix"></a><a name="25.1"></a>
-  - [26.1](#jquery--dollar-prefix) Prefix jQuery object variables with a `$`. jscs: [`requireDollarBeforejQueryAssignment`](http://jscs.info/rule/requireDollarBeforejQueryAssignment)
+  - [26.1](#jquery--dollar-prefix) Prefix DOM object variables with a `$`. jscs: [`requireDollarBeforejQueryAssignment`](http://jscs.info/rule/requireDollarBeforejQueryAssignment)
 
     ```javascript
     // bad
@@ -3234,28 +3234,28 @@ This guide is a modified version of Airbnb's [Javascript Styleguide](https://git
     ```
 
   <a name="jquery--cache"></a><a name="25.2"></a>
-  - [26.2](#jquery--cache) Cache jQuery lookups.
+  - [26.2](#jquery--cache) Cache DOM lookups.
 
     ```javascript
     // bad
     function setSidebar() {
-      $('.sidebar').hide();
+      document.getElementById('sidebar').visible = false;
 
       // ...
 
-      $('.sidebar').css({
+      document.getElementById('sidebar').css({
         'background-color': 'pink',
       });
     }
 
     // good
     function setSidebar() {
-      const $sidebar = $('.sidebar');
-      $sidebar.hide();
+      const $sidebar = document.getElementById('sidebar');
+      $sidebar.visible = false;
 
       // ...
 
-      $sidebar.css({
+      $sidebar.styles({
         'background-color': 'pink',
       });
     }
