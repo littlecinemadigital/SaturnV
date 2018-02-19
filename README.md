@@ -13,6 +13,7 @@ Code Styles, Operations, and Other Important Shit. This document contains everyt
 ---------
 
 # Code Styles
+* Our style guide is a modified version of Airbnb's [javascript guide](https://github.com/airbnb/javascript).
 * Use 2-space tabs. Don't start a fight about this.
 * We use ES6 syntax whenever possible. Some legacy code bases may use ES5, at some point these will be updated.
 
