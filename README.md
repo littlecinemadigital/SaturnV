@@ -19,7 +19,7 @@ Code Styles, Operations, and Other Important Shit. This document contains everyt
 
   1. [Types](#types)
   
-### Types
+## Types
   <a name="types--primitives"></a><a name="1.1"></a>
   - [1.1](#types--primitives) **Primitives**: When you access a primitive type you work directly on its value.
 
@@ -110,7 +110,7 @@ Code Styles, Operations, and Other Important Shit. This document contains everyt
 
 **[⬆ back to top](#table-of-contents)**
 
-### Objects
+## Objects
 
   <a name="objects--no-new"></a><a name="3.1"></a>
   - [3.1](#objects--no-new) Use the literal syntax for object creation. eslint: [`no-new-object`](https://eslint.org/docs/rules/no-new-object.html)
