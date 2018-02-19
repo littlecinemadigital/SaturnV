@@ -10,6 +10,8 @@ Code Styles, Operations, and Other Important Shit. This document contains everyt
         * Use npm or any other dependency management system.
 * Keep line lenghts bellow 100 characets, keep the gif dif easy to read.
 
+---------
+
 # Code Styles
 * Use 2-space tabs. Don't start a fight about this.
 
@@ -18,7 +20,6 @@ Code Styles, Operations, and Other Important Shit. This document contains everyt
   1. [Types](#types)
   
 ### Types
----------
   <a name="types--primitives"></a><a name="1.1"></a>
   - [1.1](#types--primitives) **Primitives**: When you access a primitive type you work directly on its value.
 
