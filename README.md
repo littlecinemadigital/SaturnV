@@ -15,20 +15,20 @@ Code Styles, Operations, and Other Important Shit. This document contains everyt
 We use a variety of technology for our projects. Here's a non-complete list:
 
 ### Web Technologies
-* (React)[https://reactjs.org/]
-* (Redux)[https://redux.js.org]
-* (Three.js)[https://threejs.org]
-* (AR.js)[https://github.com/jeromeetienne/AR.js/blob/master/README.md]
+* [React](https://reactjs.org)
+* [Redux](https://redux.js.org)
+* [Three.js](https://threejs.org)
+* [AR.js](https://github.com/jeromeetienne/AR.js/blob/master/README.md)
 
 ### Graphics Systems
-* (OpenFrameworks)[http://openframeworks.cc]
-* (Processing)[processing.org]
+* [OpenFrameworks](http://openframeworks.cc)
+* [Processing](processing.org)
 
 ### Misc. Libraries
 
-* (OpenCV)[https://opencv.org/]
-* (LibFreenect2)[https://github.com/OpenKinect/libfreenect2]
-* (Leap Motion)[https://www.leapmotion.com/]
+* [OpenCV](https://opencv.org/)
+* [LibFreenect2](https://github.com/OpenKinect/libfreenect2)
+* [Leap Motion](https://www.leapmotion.com/)
 
 ## Code Styles
 * Our style guide is a modified version of Airbnb's [javascript guide](https://github.com/airbnb/javascript).
