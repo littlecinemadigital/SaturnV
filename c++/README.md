@@ -1,6 +1,6 @@
 # C/C++ Styleguide.
 
-Must of this is lifted from [Google's C/C++ styleguide](https://google.github.io/styleguide/cppguide.html). Thanks Google.
+Much of this is lifted from [Google's C/C++ styleguide](https://google.github.io/styleguide/cppguide.html). Thanks Google.
 ## Table of Contents
 
   1. [Headers](#header)
