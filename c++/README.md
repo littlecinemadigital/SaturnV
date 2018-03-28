@@ -15,4 +15,4 @@ Much of this is lifted from [Google's C/C++ styleguide](https://google.github.io
 
 ### #define Guard
 
-Header files should utilize a `#define` guard in order to to prevent multi inclusion. The format of the symbol name should be <PROJECT>_<PATH>_<FILE>_H_.
+Header files should utilize a `#define` guard in order to to prevent multi inclusion. The format of the symbol name should be `<PROJECT>_<PATH>_<FILE>_H_`.
