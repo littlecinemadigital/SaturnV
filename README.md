@@ -8,7 +8,7 @@ Code Styles, Operations, and Other Important Shit. This document contains everyt
     * Compiled Files
     * Dependency code (react, three, etc)
         * Use npm or any other dependency management system.
-* Keep line lenghts bellow 100 characets, keep the gif dif easy to read.
+* Keep line lengths bellow 100 characters, keep the gif dif easy to read.
 
 ## Our Techs
 
