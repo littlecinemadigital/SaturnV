@@ -59,3 +59,27 @@ Structuring code to enable forward declarations (e.g. using pointer members inst
 * When using a function declared in a header file, always #include that header.
 * When using a class template, prefer to #include its header file.
 * Please see Names and Order of Includes for rules about when to #include a header.
+
+### Inline Functions
+
+Define functions inline only when they are small, say, 10 lines or fewer.
+
+#### Definition:
+You can declare functions in a way that allows the compiler to expand them inline rather than calling them through the usual function call mechanism.
+
+#### Pros:
+Inlining a function can generate more efficient object code, as long as the inlined function is small. Feel free to inline accessors and mutators, and other short, performance-critical functions.
+
+#### Cons:
+Overuse of inlining can actually make programs slower. Depending on a function's size, inlining it can cause the code size to increase or decrease. Inlining a very small accessor function will usually decrease code size while inlining a very large function can dramatically increase code size. On modern processors smaller code usually runs faster due to better use of the instruction cache.
+
+##### Decision:
+
+
+A decent rule of thumb is to not inline a function if it is more than 10 lines long. Beware of destructors, which are often longer than they appear because of implicit member- and base-destructor calls!
+
+
+Another useful rule of thumb: it's typically not cost effective to inline functions with loops or switch statements (unless, in the common case, the loop or switch statement is never executed).
+
+
+It is important to know that functions are not always inlined even if they are declared as such; for example, virtual and recursive functions are not normally inlined. Usually recursive functions should not be inline. The main reason for making a virtual function inline is to place its definition in the class, either for convenience or to document its behavior, e.g., for accessors and mutators.
