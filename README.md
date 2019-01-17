@@ -25,8 +25,8 @@ We use a variety of technology for our projects. Here's a non-complete list:
 * [Processing](processing.org)
 
 ### Engines
-* [Unity](https://unity.com)
-* [UnrealEngine 4](https://www.unrealengine.com)
+* [Unity](https://unity3d.com)
+* [Unreal Engine 4](https://www.unrealengine.com)
 
 ### Misc. Libraries
 
@@ -35,8 +35,9 @@ We use a variety of technology for our projects. Here's a non-complete list:
 * [Leap Motion](https://www.leapmotion.com/)
 
 ## Code Styles
-* Our style guide is a modified version of Airbnb's [javascript guide](https://github.com/airbnb/javascript).
-* Use 2-space tabs. Don't start a fight about this.
+* Our Web style guide is a modified version of Airbnb's [javascript guide](https://github.com/airbnb/javascript).
+* Our C++ style guide is a modified version of Google's [C++ guide](https://google.github.io/styleguide/cppguide.html)
+* Use 2-space tabs.
 * We use ES6 syntax whenever possible. Some legacy code bases may use ES5, at some point these will be updated.
 
 
