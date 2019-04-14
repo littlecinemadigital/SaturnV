@@ -39,6 +39,7 @@ We use a variety of technology for our projects. Here's a non-complete list:
 * Our C++ style guide is a modified version of Google's [C++ guide](https://google.github.io/styleguide/cppguide.html)
 * Use 2-space tabs.
 * We use ES6 syntax whenever possible. Some legacy code bases may use ES5, at some point these will be updated.
+* [Download our Visual Studio Formatting Settings](https://github.com/tothemun/SATURN-V/raw/master/mun-formatting.vssettings
 
 
 ### [Javascript Styleguide](https://github.com/tothemun/SATURN-V/blob/master/JAVASCRIPT.md)
