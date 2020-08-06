@@ -45,3 +45,8 @@ We use a variety of technology for our projects. Here's a non-complete list:
 ### [Javascript Styleguide](https://github.com/tothemun/SATURN-V/blob/master/JAVASCRIPT.md)
 ### [CSS Styleguide](https://github.com/tothemun/SATURN-V/blob/master/CSS.md)
 ### [C/C++ Styleguide](https://github.com/tothemun/SATURN-V/blob/master/c++/README.md)
+
+
+## Useful Tools
+
+[StyledComponents Syntax Highlighting](https://styled-components.com/docs/tooling#syntax-highlighting)
