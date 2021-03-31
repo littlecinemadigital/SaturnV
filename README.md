@@ -14,6 +14,10 @@ Code Styles, Operations, and Other Important Shit. This document contains everyt
 
 [See the Wiki](https://github.com/littlecinemadigital/SaturnV/wiki)
 
+## New Dev?
+
+* [Setting Up AWS MFA](https://github.com/littlecinemadigital/SaturnV/blob/master/developer-onboarding-configuring-aws-mfa.pdf)
+
 ## Our Techs
 
 We use a variety of technology for our projects. Here's a non-complete list:
