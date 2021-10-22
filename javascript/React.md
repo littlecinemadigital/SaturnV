@@ -1,4 +1,4 @@
-# MUN React/JSX Style Guide
+# MUN React/JSX Style Guide (Agressively outdated)
 
 *A mostly reasonable approach to React and JSX*
 
