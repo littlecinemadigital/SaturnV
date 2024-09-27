@@ -62,7 +62,7 @@
     "react-dom": "^16.13.1",
     "react-resize-detector": "^5.2.0",
     "react-scripts": "^3.4.1",
-    "rollup": "2.40.0",
+    "rollup": "2.79.2",
     "rollup-plugin-peer-deps-external": "2.2.4",
     "rollup-plugin-typescript2": "0.30.0",
     "ts-jest": "26.5.2",
